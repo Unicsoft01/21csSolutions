@@ -1,0 +1,22 @@
+<?php
+
+namespace [namespace];
+
+// use Livewire\Attributes\Layout;
+use Livewire\Component;
+
+class [class] extends Component
+{
+    public $var;
+    
+    public function mount()
+    {
+
+    }
+
+    // #[Layout('layouts.frontend')]
+    public function render()
+    {
+        return view('[view]');
+    }
+}
