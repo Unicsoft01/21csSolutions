@@ -568,7 +568,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-icon-wrapper">
                                     <div class="elementor-icon">
-                                        <i aria-hidden="true" class=" las la-broom"></i>
+                                        <i aria-hidden="true" class=" fas fa-broom"></i>
                                     </div>
                                 </div>
                             </div>
@@ -1402,7 +1402,7 @@
 
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
-                                            <i aria-hidden="true" class="icofont icofont-verification-check"></i>
+                                            <i aria-hidden="true" class="fas fa-check"></i>
                                         </span>
                                     </div>
 
@@ -1431,7 +1431,7 @@
 
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
-                                            <i aria-hidden="true" class="icofont icofont-verification-check"></i>
+                                            <i aria-hidden="true" class="fas fa-check"></i>
                                         </span>
                                     </div>
 
@@ -1460,7 +1460,7 @@
 
                                     <div class="elementor-icon-box-icon">
                                         <span class="elementor-icon elementor-animation-">
-                                            <i aria-hidden="true" class="icofont icofont-verification-check"></i>
+                                            <i aria-hidden="true" class="fas fa-check"></i>
                                         </span>
                                     </div>
 
@@ -1571,7 +1571,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-quote2"></i>
+                                                        <i aria-hidden="true" class="fas fa-quote-right"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1653,7 +1653,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-quote2"></i>
+                                                        <i aria-hidden="true" class="fas fa-quote-right"></i>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1735,7 +1735,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-wrapper">
                                                     <div class="elementor-icon">
-                                                        <i aria-hidden="true" class="icon icon-quote2"></i>
+                                                        <i aria-hidden="true" class="fas fa-quote-right"></i>
                                                     </div>
                                                 </div>
                                             </div>

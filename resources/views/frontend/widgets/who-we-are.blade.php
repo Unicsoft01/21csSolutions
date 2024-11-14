@@ -96,7 +96,7 @@
                                             <div class="elementor-icon-box-icon">
                                                 <span class="elementor-icon elementor-animation-">
                                                     <i aria-hidden="true"
-                                                        class="icofont icofont-verification-check"></i> </span>
+                                                        class="fas fa-check"></i> </span>
                                             </div>
 
                                             <div class="elementor-icon-box-content">
@@ -123,7 +123,7 @@
                                             <div class="elementor-icon-box-icon">
                                                 <span class="elementor-icon elementor-animation-">
                                                     <i aria-hidden="true"
-                                                        class="icofont icofont-verification-check"></i> </span>
+                                                        class="fas fa-check"></i> </span>
                                             </div>
 
                                             <div class="elementor-icon-box-content">
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </section>
-                <section
+                {{-- <section
                     class="elementor-section elementor-inner-section elementor-element elementor-element-a76b203 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="a76b203" data-element_type="section">
                     <div class="elementor-container elementor-column-gap-default">
@@ -221,7 +221,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> --}}
             </div>
         </div>
     </div>

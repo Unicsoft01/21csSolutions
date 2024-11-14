@@ -3,6 +3,7 @@
 
     <div data-elementor-type="header" data-elementor-id="64" class="elementor elementor-64 elementor-location-header"
         data-elementor-post-type="elementor_library">
+        {{-- topmost contents --}}
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-e54bd05 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="e54bd05" data-element_type="section"
@@ -17,7 +18,6 @@
                                 <ul class="elementor-icon-list-items elementor-inline-items">
                                     <li class="elementor-icon-list-item elementor-inline-item">
                                         <span class="elementor-icon-list-icon">
-                                            {{-- <i class=""></i> --}}
                                             <i aria-hidden="true" class="fas fa-map-marker-alt"></i> </span>
                                         <span class="elementor-icon-list-text">Jl Cempaka Wangi No 22,
                                             Jakarta-ID</span>
@@ -56,6 +56,7 @@
                 </div>
             </div>
         </section>
+        {{-- nav --}}
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-0bc5445 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="0bc5445" data-element_type="section"
@@ -67,12 +68,9 @@
                         <div class="elementor-element elementor-element-d27b48f elementor-widget__width-auto elementor-widget elementor-widget-image"
                             data-id="d27b48f" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <a href="{{ url('/') }}/">
-                                    <img width="428" height="96"
-                                        src="{{ url('/') }}/beclean/wp-content/uploads/sites/2/2023/09/Logo_BeClean_1.png"
-                                        class="attachment-full size-full wp-image-58" alt=""
-                                        srcset="https://demo.creativemox.com/beclean/wp-content/uploads/sites/2/2023/09/Logo_BeClean_1.png 428w, https://demo.creativemox.com/beclean/wp-content/uploads/sites/2/2023/09/Logo_BeClean_1-300x67.png 300w"
-                                        sizes="(max-width: 428px) 100vw, 428px" loading="lazy" /> </a>
+                                <a href="{{ url('/') }}/" wire:navigate>
+                                    <h4 class="elementor-icon-box-title"> <span> 21 Cleaning <small style="color: rgb(182, 215, 62)">Solutions</small> </span> </h4>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -90,76 +88,30 @@
                                     <ul id="menu-1-a746def" class="elementor-nav-menu">
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-44">
-                                            <a href="{{ route('welcome') }}" aria-current="page"
+                                            <a href="{{ route('welcome') }}" wire:navigate  aria-current="page"
                                                 class="elementor-item elementor-item-active">Home</a>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45">
-                                            <a href="{{ route('about-us.index') }}"  class="elementor-item">About Us</a>
+                                            <a href="{{ route('about-us.index') }}"  wire:navigate  class="elementor-item">About Us</a>
                                         </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-46">
-                                            <a href="../services/index.html" class="elementor-item">Services</a>
-                                            <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47">
-                                                    <a href="../single-service/index.html"
-                                                        class="elementor-sub-item">Single Service</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50">
-                                                    <a href="../pricing-plan/index.html"
-                                                        class="elementor-sub-item">Pricing Plan</a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                        {{-- <li
+                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45">
+                                            <a href="{{ route('about-us.index') }}"  wire:navigate  class="elementor-item">Services</a>
+                                        </li> --}}
+                                        
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
-                                            <a href="../contact-us/index.html" class="elementor-item">Contact Us</a>
-                                        </li>
-                                        <li
-                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-49">
-                                            <a href="#" class="elementor-item elementor-item-anchor">Pages</a>
-                                            <ul class="sub-menu elementor-nav-menu--dropdown">
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56">
-                                                    <a href="../appointment/index.html"
-                                                        class="elementor-sub-item">Appointment</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51">
-                                                    <a href="../team/index.html" class="elementor-sub-item">Team</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52">
-                                                    <a href="../faqs/index.html"
-                                                        class="elementor-sub-item">FAQ&#8217;s</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53">
-                                                    <a href="https://demo.creativemox.com/beclean/?elementor_library=beclean-blog"
-                                                        class="elementor-sub-item">Blog</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54">
-                                                    <a href="https://demo.creativemox.com/beclean/2023/09/01/cleaning-hardwood-floors-and-keeping-the-dirt-out/"
-                                                        class="elementor-sub-item">Single Post</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55">
-                                                    <a href="https://demo.creativemox.com/beclean/?elementor_library=beclean-error-404"
-                                                        class="elementor-sub-item">Error 404</a>
-                                                </li>
-                                            </ul>
+                                            <a href="{{ route('contact-us.index') }}"  wire:navigate class="elementor-item">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>
                                 <div class="elementor-menu-toggle" role="button" tabindex="0"
                                     aria-label="Menu Toggle" aria-expanded="false">
                                     <i aria-hidden="true" role="presentation"
-                                        class="elementor-menu-toggle__icon--open  ti-menu"></i><i aria-hidden="true"
+                                        class="elementor-menu-toggle__icon--open  fas fa-bars"></i><i aria-hidden="true"
                                         role="presentation"
-                                        class="elementor-menu-toggle__icon--close eicon-close"></i> <span
+                                        class="elementor-menu-toggle__icon--close fas fa-times"></i> <span
                                         class="elementor-screen-only">Menu</span>
                                 </div>
                                 <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container"
@@ -167,17 +119,17 @@
                                     <ul id="menu-2-a746def" class="elementor-nav-menu">
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-44">
-                                            <a href="index.html" aria-current="page"
+                                            <a href="{{ route('welcome') }}" wire:navigate aria-current="page"
                                                 class="elementor-item elementor-item-active" tabindex="-1">Home</a>
                                         </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45">
-                                            <a href="../about-us/index.html" class="elementor-item"
+                                            <a href="{{ route('about-us.index') }}" wire:navigate class="elementor-item"
                                                 tabindex="-1">About Us</a>
                                         </li>
-                                        <li
+                                        {{-- <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-46">
-                                            <a href="../services/index.html" class="elementor-item"
+                                            <a href="{{ route('welcome') }}" class="elementor-item"
                                                 tabindex="-1">Services</a>
                                             <ul class="sub-menu elementor-nav-menu--dropdown">
                                                 <li
@@ -191,10 +143,10 @@
                                                         tabindex="-1">Pricing Plan</a>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
-                                            <a href="../contact-us/index.html" class="elementor-item"
+                                            <a href="{{ route('contact-us.index') }}" wire:navigate class="elementor-item"
                                                 tabindex="-1">Contact Us</a>
                                         </li>
                                         <li
@@ -206,31 +158,6 @@
                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-56">
                                                     <a href="../appointment/index.html" class="elementor-sub-item"
                                                         tabindex="-1">Appointment</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51">
-                                                    <a href="../team/index.html" class="elementor-sub-item"
-                                                        tabindex="-1">Team</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52">
-                                                    <a href="../faqs/index.html" class="elementor-sub-item"
-                                                        tabindex="-1">FAQ&#8217;s</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-53">
-                                                    <a href="https://demo.creativemox.com/beclean/?elementor_library=beclean-blog"
-                                                        class="elementor-sub-item" tabindex="-1">Blog</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54">
-                                                    <a href="https://demo.creativemox.com/beclean/2023/09/01/cleaning-hardwood-floors-and-keeping-the-dirt-out/"
-                                                        class="elementor-sub-item" tabindex="-1">Single Post</a>
-                                                </li>
-                                                <li
-                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-55">
-                                                    <a href="https://demo.creativemox.com/beclean/?elementor_library=beclean-error-404"
-                                                        class="elementor-sub-item" tabindex="-1">Error 404</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -248,7 +175,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="#">
+                                    href="{{ route('shedule-appointment.index') }}"  wire:navigate>
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Schedule a Service</span>
                                         </span>
