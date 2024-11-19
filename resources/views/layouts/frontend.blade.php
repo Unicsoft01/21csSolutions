@@ -168,7 +168,7 @@
 
                                                     <div class="elementor-icon-box-icon">
                                                         <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="icon icon-phone1"></i>
+                                                            <i aria-hidden="true" class="fas fa-phone"></i>
                                                         </span>
                                                     </div>
 
@@ -206,36 +206,19 @@
                                                     <li class="elementor-icon-list-item">
                                                         <a href="#">
 
-                                                            <span class="elementor-icon-list-text">Room
-                                                                Cleaning</span>
+                                                            <span class="elementor-icon-list-text">House Cleaning</span>
                                                         </a>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <a href="#">
 
-                                                            <span class="elementor-icon-list-text">Window
-                                                                Cleaning</span>
+                                                            <span class="elementor-icon-list-text">Laundry</span>
                                                         </a>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <a href="#">
 
-                                                            <span class="elementor-icon-list-text">Toilet
-                                                                Cleaning</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
-
-                                                            <span class="elementor-icon-list-text">Garden
-                                                                Cleaning</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
-                                                        <a href="#">
-
-                                                            <span class="elementor-icon-list-text">Kitchen
-                                                                Cleaning</span>
+                                                            <span class="elementor-icon-list-text">House Maid</span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -268,27 +251,26 @@
                                                     <li class="elementor-icon-list-item">
                                                         <a href="#">
 
-                                                            <span class="elementor-icon-list-text">Offers</span>
+                                                            <span class="elementor-icon-list-text">Contact Us</span>
                                                         </a>
                                                     </li>
                                                     <li class="elementor-icon-list-item">
                                                         <a href="#">
 
-                                                            <span class="elementor-icon-list-text">Pricing
-                                                                Table</span>
+                                                            <span class="elementor-icon-list-text">Shedule a service</span>
                                                         </a>
                                                     </li>
-                                                    <li class="elementor-icon-list-item">
+                                                    {{-- <li class="elementor-icon-list-item">
                                                         <a href="#">
 
                                                             <span class="elementor-icon-list-text">Partners</span>
                                                         </a>
-                                                    </li>
-                                                    <li class="elementor-icon-list-item">
+                                                    </li> --}}
+                                                    {{-- <li class="elementor-icon-list-item">
                                                         <a href="#">
 
                                                             <span class="elementor-icon-list-text">Faq's Page</span>
-                                                        </a>
+                                                        </a> --}}
                                                     </li>
                                                 </ul>
                                             </div>
